@@ -1,41 +1,41 @@
-# [deprecated] phisap - PHIgros Semi-Automatic Player
-[已废弃] ✨ 适用于(类)Phigros音游的半自动打歌器 ✨
+# [Deprecated] phisap - PHIgros Semi-Automatic Player
+[No Longer Maintained] ✨ A Semi-Automatic Song Player for (Similar to) Phigros Rhythm Games ✨
 
-作者将不再维护此项目，推荐有相关需求的用户寻找其他替代品或本项目还在维护的fork。
+The author will no longer maintain this project. Users in need of similar functionality are advised to look for alternatives or forks of this project that are still being updated.
 
-要查看源码，请跳转到其他分支：
-+ [稳定版](https://github.com/kvarenzn/phisap/tree/stable)
-+ [开发版](https://github.com/kvarenzn/phisap/tree/dev)
+To view the source code, please refer to other branches:
++ [Stable Version](https://github.com/kvarenzn/phisap/tree/stable)
++ [Development Version](https://github.com/kvarenzn/phisap/tree/dev)
 
-## 唠点闲嗑
-半年前突发奇想给主力机刷了个机，刷之前忘了备份phigros和phira的数据，刷完了之后觉得再把这俩软件装回来再设置好很麻烦，也就没再折腾。
+## A Little Chat
+Half a year ago, I impulsively decided to flash the ROM on my main device. Before flashing, I forgot to back up the data for Phigros and Phira. After flashing, I found it troublesome to reinstall and set up both apps, so I didn’t bother.
 
-这之后就忙于学业和工作上的各类事情，无瑕顾及这个项目的维护及更新工作。到了现在手头上的工作没那么多了，本想着能把这里挂着的一堆issue解决几个，再加点之前预想的功能，可是却提不起兴趣做这些事情了。以后可能也不太会有兴趣，不过以后的事谁知道呢。
+Since then, I’ve been busy with academic and work-related matters, leaving no time to maintain or update this project. Now that my workload has eased up, I thought of resolving some of the issues listed here and adding features I had planned earlier. However, I just couldn’t muster the interest to do so. I likely won’t be interested in the future either, but who knows?
 
-所以就决定废弃这个项目了，毕竟一直吊着各位等待更新的朋友的胃口也不太好。这个项目已在今日（2024年3月7日）公开存档。
+Therefore, I’ve decided to abandon this project—it’s not good to keep users waiting indefinitely for updates. This project was officially archived on **March 7, 2024**.
 
-**@364hao** 在我无瑕维护的时间里帮我回答/解决了很多朋友提的issue，特此表示感谢。
+**@364hao** has helped answer/resolve many issues raised by users while I was unavailable. I would like to express my gratitude for their assistance.
 
-本项目将始终以WTFPL协议开源，如果你愿意继续开发phisap，欢迎fork并维护你自己的版本。
+This project will remain open-source under the WTFPL license. If you wish to continue developing phisap, feel free to fork and maintain your own version.
 
-下面再扯点别的
+### Some Extra Thoughts
 
-这个项目的起源很简单，当时刚入坑（在b站刷到WATER的打歌视频入坑的，主要是歌真的好听）不到三个月，有一天打歌的时候看到了条tip，就突发奇想能不能将这条tip成真，于是就花了约两周的课余时间搓了个原型出来，当时就是一个小脚本，连命令行界面都没有，不过在试验成功后我非常激动。phisap成功收的第一首歌是HD难度的WATER。（顺便一提，后续我经过一段时间的练习，成功手动收了这首的HD。IN就算了，下辈子没准有可能）
+The origin of this project was quite simple. I had been playing (got into it after seeing a WATER gameplay video on Bilibili—the music was amazing) for less than three months. One day, while playing, I saw a tip that sparked the idea of making it a reality. I spent about two weeks of my spare time creating a prototype—a small script without even a command-line interface. I was ecstatic when the experiment succeeded. The first song phisap successfully completed was **WATER** on HD difficulty. (By the way, after practicing for some time, I was able to manually clear WATER on HD. As for IN, maybe next life!)
 
-之后就去github上搜了搜，有没有类似的项目，发现居然没有，大伙的品德都挺高尚的（笑）。我就把这个项目改了改，加了个简单的操作界面，在github上开源。开源的原因也很简单，就是有意思的东西就要分享（当然前提是不违法）。
+Later, I searched on GitHub to see if there were similar projects and was surprised to find none—guess everyone’s moral compass is quite high (lol). So, I modified the project, added a simple interface, and open-sourced it on GitHub. The reason for open-sourcing was straightforward: interesting things should be shared (provided they’re legal).
 
-对于音游王，我一向持无所谓的态度。（为什么要整个专有名词，这不就是挂逼么？）可能是因为我不用除微信外的社交平台（要不是现在干啥都需要用微信，我连微信都不想用），B站帐号就用来看个虚拟主播（鉴定为看皮套人看的），周围的兄弟们几乎没有玩音游的，打个歌都不知道跟谁分享（也没有分享的欲望，自己乐呵就得了），所以不太懂这方面。可能等心智成熟一些这些人的状况就会改善吧，还是图样图森破，上台拿衣服。
+As for my attitude toward rhythm game masters, I’m indifferent. (Why even coin a term? It’s just scripting!) Perhaps it’s because I don’t use social platforms other than WeChat (and even that’s because everything requires it nowadays). I use Bilibili to watch VTubers (yes, I watch "costumed people"). None of my friends play rhythm games, so I have no one to share gameplay with (not that I have the urge to share—enjoying it myself is enough). Maybe these social aspects will improve as I grow older, but for now, I remain "naïve and inexperienced."
 
-至于之前为啥要加上arcaea的支持，原因是隔壁宿舍里有个哥们玩蛇（这哥们是我认识的唯一一个玩音游的），一天他串门看到我在用phisap刷data，就问我这玩意能不能支持arcaea。我当时不知道什么是韵律源点，寻思音游的工作原理应该都差不多，就决定试试。不过有一说一韵律源点拆包取谱确实比phigros方便，直接解压就行。研究了三天整了个能凑合用的版本。因为没钱买曲包，所以就拿免费的曲子测试了一下，发现能AP，就也开源到github上了。在此我倒是很感谢arcaea，为了算蛇的触点，我把两年前学的线性代数又拾起来了，庆幸的是居然没忘干净。
+Regarding why I added Arcaea support, it was because a friend in the neighboring dorm (the only person I know who plays rhythm games) saw me using phisap on Data and asked if it could support Arcaea. I didn’t know what Rhythm Source Points were at the time but figured the mechanics should be similar, so I decided to give it a try. By the way, extracting Arcaea charts is indeed more convenient than Phigros—you just unzip the files. After three days of effort, I managed to create a usable version. Since I couldn’t afford to buy song packs, I tested it on free songs and found it could achieve AP. So, I also open-sourced that on GitHub. I’m grateful to Arcaea for making me revisit linear algebra from two years ago while calculating snake touch points—and thankfully, I hadn’t forgotten it completely.
 
-在此之后，phisap就有了两个发展方向，一个是更亲民的界面，另一个是更优秀的规划算法。第一个其实我是不太想弄，一是我懒，二是可以顺便提高一点使用门槛，小众一点还是好。不过后来我都被自己写的界面恶心到了，于是就抽空糊弄了个Qt的界面，看起来是好看点了。第二个是我一直在尝试的内容。我一直想着能把愚人节谱AP掉。前前后后想了数种方案，实现的代码也改了几十版，可是无论哪种都不尽如人意。最终我保留了两版，加上最原始的那版一共三版算法，按照其工作原理分别命名为保守、激进和极端。每种算法都有它们解决不了的问题。
+Afterward, phisap evolved in two directions: a more user-friendly interface and better planning algorithms. I wasn’t keen on the first because I’m lazy and thought it might raise the bar for users a little, keeping it niche. But even I got fed up with my own interface eventually, so I slapped together a Qt interface, making it somewhat more presentable. The second direction, improving algorithms, was something I always tried. I wanted to AP the April Fools’ chart. I experimented with various approaches, rewriting the code dozens of times, but none worked perfectly. In the end, I kept three versions of the algorithm—Conservative, Aggressive, and Extreme—each with its limitations.
 
-之后我还是想继续改进算法的，不过这个东西调试起来太费劲。期间我写了个谱面可视化界面，支持谱面的预览和手法的展示，也支持按帧或随机跳转、暂停、倒带和倍速播放，不过我的小商务本的显卡和CPU经不起这么折腾（界面使用pyglet库写的，后端是OpenGL，走显卡计算）。每次一调试都卡半天，但我也没太多的空余时间优化这个界面，所以这事之后就不了了之了。
+I wanted to continue refining the algorithms, but debugging was a hassle. During this time, I wrote a chart visualization tool that supported chart previews, gameplay demonstrations, frame-by-frame jumping, pause, rewind, and playback speed control. However, my business laptop’s GPU and CPU couldn’t handle the load (the interface was written with pyglet, the backend using OpenGL). Debugging would freeze the system, and I didn’t have the time to optimize, so the project was shelved.
 
-还有对phira的支持这件事，当时正在完善极端算法，所以打算找点高级测试样本。然后就看到了phira，样本是真的多（笑）。反正原版程序是开源的，就对照着源码攥了个谱面解析器，把谱面翻译成phisap能认的数据结构（几年前学的rust居然派上用场了）。之后改进了几次算法把IDOL IN给AP了，挺激动的，程度不亚于之前第一次AP WATER HD。
+As for Phira support, I was working on the Extreme algorithm and wanted advanced test samples. Then I found Phira, which had plenty of samples (lol). Since the original program was open-source, I created a chart parser that translated charts into a structure phisap could recognize (turns out learning Rust years ago came in handy). After a few algorithm tweaks, I managed to AP **IDOL IN**—it was as exhilarating as my first AP of WATER HD.
 
-之后尝试AP更多的谱面，可惜有几个谱子始终没成功，无论怎么微调现有的算法都没法AP。一分析估计是现有算法的硬伤，估计要么大改，要么重写，因为时间原因，遂作罢。
+I tried APing more charts, but a few remained impossible regardless of algorithm tweaks. I realized it was a fundamental flaw in the existing algorithms, requiring either major revisions or a complete rewrite. Due to time constraints, I left it as is.
 
-再之后就是前边提到的刷机的事情了，一直到昨天都没有再管过这个项目。所以考虑到之后精力的问题，这件事到这也就告一段落了。
+Finally, as mentioned earlier, I flashed my device and haven’t touched the project since. Considering future time constraints, this is the end of the road for phisap.
 
-很感激这段时间里提供帮助的朋友们，我们有缘再会。
+I deeply appreciate everyone who supported this project. Until we meet again!
